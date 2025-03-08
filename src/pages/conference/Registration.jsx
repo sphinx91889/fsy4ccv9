@@ -33,13 +33,13 @@ export default function Registration() {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            <h2 className="text-2xl font-bold mb-4">Congregational Master List</h2>
+            <h2 className="text-2xl font-bold mb-4">Congregational Group Registration</h2>
             <p className="text-gray-600 mb-6">
               Register multiple participants from your congregation. 
               Ideal for church leaders registering groups of attendees together.
             </p>
             <a 
-              href="https://registerfsy4cc.netlify.app/"
+              href="https://resonant-daffodil-d3cc1d.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black text-white px-6 py-3 rounded-full inline-block hover:bg-gray-800 transition"
@@ -56,27 +56,18 @@ export default function Registration() {
             <div>
               <h3 className="font-bold text-xl mb-2">Registration Deadlines</h3>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Early Bird Registration: March 1, 2025</li>
-                <li>Regular Registration Deadline: May 1, 2025</li>
+                <li>Early Bird Registration: April 1, 2025</li>
+                <li>Regular Registration Deadline: June 1, 2025</li>
               </ul>
             </div>
 
-            <div>
-              <h3 className="font-bold text-xl mb-2">Required Documents</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Completed Registration Form</li>
-                <li>Medical Release Form</li>
-                <li>Parental Consent Form (if under 18)</li>
-                <li>Code of Conduct Agreement</li>
-              </ul>
-            </div>
+           
 
             <div>
               <h3 className="font-bold text-xl mb-2">Registration Fees</h3>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Early Bird Rate: $XX.XX</li>
-                <li>Regular Rate: $XX.XX</li>
-                <li>Group Rate (10+ participants): $XX.XX per person</li>
+                <li>Ages 3-6: $50.00</li>
+                <li>Ages 7+: $100.00</li>
               </ul>
             </div>
 
